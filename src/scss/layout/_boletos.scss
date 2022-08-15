@@ -1,0 +1,54 @@
+.boletos {
+  color: rgb(241, 241, 241);
+  background-color: rgb(217, 101, 246);
+  padding: 2rem;
+  text-align: center;
+}
+.contenedor-boletos {
+  @include grid(2, 2.5rem);
+  color: white;
+  p {
+    color: rgb(217, 212, 245);
+    font-size: 2.2rem;
+  }
+}
+.pase {
+    width: 100%;
+    border-spacing: 0;
+  thead {
+    background-color: $rosa;
+    th{
+        padding: 1.5rem;
+        text-transform: uppercase;
+    }
+  }
+  tbody {
+      color: rgb(8, 8, 8);
+      background-color: white;
+      td{
+          padding: 1rem;
+          border-bottom: .5px solid white;
+         
+    }
+     
+
+  }
+  tfoot {
+      background-color: $morado;
+      td{
+        padding: 1.3rem;
+        
+        
+      }
+  }
+}
+.footer{
+
+    background-color: rgb(130, 7, 146);
+    padding: 1rem;
+    text-align: center;
+ p{
+     color: white;
+     margin: 0;
+ }
+}

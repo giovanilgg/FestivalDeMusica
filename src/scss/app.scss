@@ -1,0 +1,17 @@
+//compilar para transformar en css
+@import 'base/normalize';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+@import 'base/variables';
+@import 'base/mixin';
+@import 'base/globales';
+@import 'base/utilidades.scss';
+@import 'layout/header';
+@import 'layout/video';
+@import 'layout/festival.scss';
+@import 'layout/lineup.scss';
+@import 'layout/galeria.scss';
+@import 'layout/boletos';
+
+
+
